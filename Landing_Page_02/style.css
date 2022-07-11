@@ -1,0 +1,180 @@
+  
+.container {
+    font-family:'Bai Jamjuree';
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 25px;
+    font-family:'Bai Jamjuree';
+  
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+  
+  .logo{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     padding-top: 80px;
+  }
+  body{
+      background-image: url("images/bg-header-desktop.png");
+      background-repeat: no-repeat;
+      padding-bottom:100px;
+  
+  }
+  
+  
+  .section{
+      text-align: center;
+      font-family: 'Bai Jamjuree', sans-serif;
+      
+  }
+  
+  
+  .btn{
+      border-radius: 50px;
+      color: white;
+      padding: 4px 28px ; 
+      font-size: 18px;
+      cursor: pointer;
+      text-align: center;  
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      font-family: 'Bai Jamjuree', sans-serif;
+      
+  }
+  .primary--one{
+      background-color: hsl(171, 66%, 44%);
+      border-color: hsl(171, 66%, 44%);
+  }
+  .primary--two{
+      background-color:hsl(233, 100%, 69%);
+      border-color: hsl(233, 100%, 69%);
+  }
+  
+  .container__text{
+      color: hsl(201, 11%, 66%) ;  
+      font-size: 18px;
+  }
+  .container__title{
+      color: hsl(210, 10%, 33%) 
+  }
+  
+  .section__2{
+      padding-top: 80px;
+  }
+  
+  
+  .container__image{
+      width: auto;
+      height: auto;
+  }
+  
+  .card2{
+     
+      width: 30%;
+      text-align: center;
+      float: left;
+      margin-left: 20px;
+  }
+  .card__size{
+      height: 35%;
+      width: auto;
+      padding-top: 300px;
+  }
+  
+  .logos{
+      padding: 30px;
+  }
+  .LogoBox{
+      padding-left: 2%;
+      margin: 40px;
+      align-items: center;
+  }
+  
+  
+      
+  
+  .section__4{
+      padding-bottom: 10%;
+  }
+  
+  
+  
+  html,body{
+      height: 100%;
+      width: 100%;
+      padding: 0px;
+      margin: 0px;
+      font-family: 'Bai Jamjuree', sans-serif;
+      
+  }
+  
+  
+  
+  
+  .card__image{
+      float: left;
+  }
+  .card__image{
+      height: 400px;
+      width: 600px;
+      position: relative;
+      left: -50px;
+  }
+  
+  .card{
+      padding-left: 30%;
+  }
+  .card__title{
+      color: hsl(210, 10%, 33%);
+      padding-top: 15px; 
+  }
+  .card__text{
+      color: hsl(201, 11%, 66%) ;  
+      font-size: 18px;
+  }
+  
+  
+  .a1{
+      height: 500px;
+      width: 100%;
+      margin-top: 150px;
+  }
+
+  
+  ul {
+    list-style: none;
+    display: block;
+    float: left;
+  
+  }
+  
+  .footer__container{
+      height: 20%;
+      width: 100%;
+      background-color: hsl(203, 21%, 88%);
+      
+  }
+  .footer__logo{
+      width: 50px;
+      height: 50px;
+      padding-left: 150px;
+  }
+  
+  li{
+      margin-left: 80px;
+  
+  }
+  a{
+      text-decoration:none;
+      color: black;
+      
+  }
+  
+  .l1{
+      float: left;
+      margin-left: 10px;
+     
+  }
+  .social__media{
+      padding-left: 290px;
+  }

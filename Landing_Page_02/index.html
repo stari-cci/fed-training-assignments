@@ -3,107 +3,114 @@
         <title>
             Landing Page 02
         </title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Bai Jamjuree' rel='stylesheet'>
     </head>
-    <body>
-                    <!--LOGO-->
-        <header>
+    <body> 
 
-            <img src="images/logo.svg" alt="logo">
+<!--LOGO-->
+    <div class="L"> 
+        <header>
+            <img src="images/logo.svg" class="logo" alt="logo">
         </header>
         <main>
 <!-- MAIN SECTION -->                  
             <section class="section main__section">
                 <div class="container main__container">
-                    <h1 class = "container container__title "> A history of everything you copy</h1>
-                    <p class = "container container__text" > Clipboard allows you to track and organize everything you
-                        copy. Instantly access your clipboard on all your devices.
+                    <h1 class = "container container__title--1 "> A history of everything you copy</h1>
+                    <p class = "container container__text" > Clipboard allows you to track and organize everything you copy.</br> 
+                        Instantly access your clipboard on all your devices.
                     </p>
-                     <button class="btn primary--one"> Download for iOS</button>
+                    <button class="btn primary--one">Download for iOS</button>
                     <button class="btn primary--two">Download for Mac</button>
                 </div>
             </section>
 
-
+    </div>
 <!-- SECTION 2 -->
             <section class="section section__2">
                 <div class="container container__2">
-                    <h2  class = "container container__title "> Track of your snippets</h2>
+                    <h2  class = "container container__title "> Keep Track of your snippets</h2>
 
                     <p  class = "container container__text" > Clipboard instantly stores any item you copy in the cloud,
-                      meaning you can access your snippets immediately on all your
-                      devices.<br> Our Mac and iOS apps will help you organize everything.</p>
+                      meaning you can access <br>
+                      your snippets immediately on all your devices. Our Mac and iOS apps will help you <br>
+                      organize everything.</p>
                 </div>
             </section>
             
 <!-- BANNER -->
 <!--2 column layout-->
+     
             <div class="col-6">
-                <img src="images/image-computer.png" alt="computer" />
-            </div>
-            <div class="col-6">
+                <div class="card__image">
+                    <img class="card__image "src="images/image-computer.png">
+                </div>    
                 <div class="card">
-                    <div class="card card__1">
-                        <h3 class="card__1 card__title"> Quick Search</h3>
-                        <p class="card__1 card_text"> Easily search your snippets by content, category, web address, application, and more.</p>
-                    </div>
-                    <div class="card card__2">
-                        <h3 class="card__2 card__title"> iCloud Sync</h3>
-                        <p class="card__2 card_text"> Instantly saves and syncs snippets across all your devices </p>
-                    </div>
-                    <div class="card card__3">
-                        <h3 class="card__3 card__title"> Complete History</h3>
-                        <p class="card__3 card_text"> Retrieve any snippets from the first moment you started using the app</p>
-                    </div>                        
+                    <h3 class="card card__title"> Quick Search</h3>
+                    <p class="card card_text"> Easily search your snippets by content, <br>category, web address, application, and more.</p>
                 </div>
+                <div class="card">
+                    <h3 class="card card__title"> iCloud Sync</h3>
+                    <p class="card card_text"> Instantly saves and syncs snippets across all <br> your devices </p>
+                </div>
+                <div class="card">
+                    <h3 class="card card__title"> Complete History</h3>
+                    <p class="card card_text"> Retrieve any snippets from the first moment you <br> started using the app</p>
+                </div>              
             </div>
 
 <!-- SECTION 3-->
-            <section class="section section__3">
-                <div class="container container__3">
-                    <h1 class = "container container__title ">Access Clipboard anywhere</h1>
-                    <p class = "container container__text" > CWhether you’re on the go, or at your computer, you can access all your Clipboard
-                                        snippets in a few simple clicks
-                    </p>
-                    <img src="images/image-devices.png" class="container container__image">
-                    <h1 class="container container__title">Supercharge your workflow</h1>                        <p  class = "container container__text" >We’ve got the tools to boost your productivity.</p>
-                </div>
-            </section>
-
-<!-- CARDS-->
-            <div class="card2">
-                <span class="card__img"> <img src= "images/icon-blacklist.svg"></span>
-                <div class="card__content">
-                    <h3 class="card__title"> Create blacklist</h3>
-                    <p class="card__desc"> Ensure sensitive information never makes its way to your clipboard by excluding certain sources</p>
-                </div>
+            <div class="a1">
+                <section class="section section__3">
+                    <div class="container container__3">
+                        <h2 class = "container container__title ">Access Clipboard anywhere</h2>
+                        <p class = "container container__text" > Whether you’re on the go, or at your computer, you can access all your Clipboard
+                                            snippets in a few simple clicks
+                        </p>
+                        <img src="images/image-devices.png" class="container container__image">
+                        <h2 class="container container__title">Supercharge your workflow</h2>                      
+                        <p  class = "container container__text" >We’ve got the tools to boost your productivity.</p>
+                    </div>
+                </section>
             </div>
-            <div class="card2">
-                <span class="card__img"> <img src= "images/icon-text.svg"></span>
-                <div class="card__content">
-                    <h3 class="card__title"> Plain text snippets </h3>                        <p class="card__desc"> Remove unwanted formatting from copied text for a consistent look.</p>
+            <!-- CARDS-->
+            <div class="card__size"> 
+                <div class="card2">
+                    <span class="card__img"> <img src= "images/icon-blacklist.svg"></span>
+                    <div class="card__content">
+                        <h3 class=" card__title"> Create blacklist</h3>
+                        <p class="card__desc"> Ensure sensitive information never makes its way to your clipboard by excluding certain sources</p>
                     </div>
                 </div>
-            <div class="card2">
-                <span class="card__img"> <img src= "images/icon-preview.svg"></span>
-                   <div class="card__content">
-                    <h3 class="card__title"> Sneak Preview </h3>
-                    <p class="card__desc"> Quick preview of all snippets on your Clipboard for easy access</p>                    </div>
+                <div class="card2">
+                    <span class="card__img"> <img src= "images/icon-text.svg"></span>
+                    <div class="card__content">
+                        <h3 class="card__title"> Plain text snippets </h3>                        <p class="card__desc"> Remove unwanted formatting from copied text for a consistent look.</p>
+                        </div>
+                    </div>
+                <div class="card2">
+                    <span class="card__img"> <img src= "images/icon-preview.svg"></span>
+                       <div class="card__content">
+                        <h3 class="card__title"> Sneak Preview </h3>
+                        <p class="card__desc"> Quick preview of all snippets on your Clipboard for easy access</p>                    </div>
+                </div>
             </div>
-<!-- DIFFERENT COMPANY LOGOS-->
+            <!-- DIFFERENT COMPANY LOGOS-->
             <div class="logos">
-                <img src="images/logo-google.png" alt="google">
-                <img src="images/logo-ibm.png" alt="IBM">
-                <img src="images/logo-microsoft.png" alt="logo-microsoft">
-                <img src="images/logo-hp.png" alt="Hp">
-                <img src="images/logo-vector-graphics.png" alt="vector logo-vector-graphics">
-            </div>
+                <img src="images/logo-google.png" alt="google" class="LogoBox">
+                <img src="images/logo-ibm.png" alt="IBM" class="LogoBox">
+                <img src="images/logo-microsoft.png" alt="logo-microsoft" class="LogoBox">
+                <img src="images/logo-hp.png" alt="Hp" class="LogoBox">
+                <img src="images/logo-vector-graphics.png" alt="vector logo-vector-graphics" class="LogoBox">
+        </div>
 
 <!--SECTION 4 -->
             <section class="section section__4">
                 <div class="container container__4">
-                    <h1 class = "container container__title "> Clipboard for iOS and Mac OS</h1>
+                    <h2 class = "container container__title "> Clipboard for iOS and Mac OS</h2>
                     <p class = "container container__text" > Available for free on the App Store. Download for Mac or iOS, sync with iCloud
-                        and you’re ready to start adding to your clipboard.
+                        and <br> you’re ready to start adding to your clipboard.
                     </p>
                     <button class="btn primary--one"> Download for iOS</button>
                     <button class="btn primary--two">Download for Mac</button>
@@ -113,37 +120,33 @@
 
 
         </main>
-  <!--footer-->
-  <footer class="footer-container">
-    <img src="images/logo.svg" alt="clipboard" />
-    <div class="row">
-      <!-- Footer Content 1-->
-      <div class="col-2">
-        <ul>
-          <li> <a href="#">FAQ</a> </li>
-          <li> <a href="#">Contact Us</a> </li>
+<!--footer-->
+<footer class="footer__container">
+
+        <ul >
+            <img class="footer__logo" src="images/logo.svg">
         </ul>
-      </div>
-      <!-- Footer Content 2-->
-      <div class="col-2">
-        <ul>
-          <li> <a href="#">Privacy Policy</a> </li>
-          <li> <a href="#">Press Kit</a> </li>
+    <ul>
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#">Contact Us</a></li>
+
+    </ul>
+    <ul>
+
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Press Kit</a></li>
+
+    </ul>
+    <ul>
+        <li><a href="#">Install Guide</a></li>
+
+    </ul> 
+        <ul class="social__media">
+            <li class="l1" ><img src="images/icon-facebook.svg"></li>
+            <li class="l1" ><img src="images/icon-twitter.svg"></li>
+            <li class="l1" ><img src="images/icon-instagram.svg"></li>
         </ul>
-      </div>
-      <!-- Footer Content 2-->
-      <div class="col-2">
-        <ul>
-          <li> <a href="#">Install Guide</a> </li>
-        </ul>
-      </div>
-      <!--social media icons-->
-      <div class="col-2">
-        <a href="#" class="icon circle"><i class="fa-brans fa-facebook"></i></a>
-        <a href="#" class="icon circle"><i class="fa-brans fa-twitter"></i></a>
-        <a href="#" class="icon circle"><i class="fa-brans fa-instagram"></i></a>
-      </div>
-    </div>
   </footer>
+
     </body>
 </html>
